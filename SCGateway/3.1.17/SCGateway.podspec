@@ -84,8 +84,8 @@ Pod::Spec.new do |spec|
 
   #spec.source       = { :git => "http://EXAMPLE/SCGateway.git", :tag => "#{spec.version}" }
   #spec.source = { :git => "https://gitlab.com/smallcase/mobile/scgateway-ios.git" , :tag => "AmoRelease-1"}
-  spec.ios.vendored_framework = 'Archive/SCGateway.framework'
-  spec.source ={ :http => "https://gateway.smallcase.com/scdk_ios/#{version}/SCGateway.framework.zip"}
+  spec.ios.vendored_framework = 'Archive/SCGateway.xcframework'
+  spec.source ={ :http => "https://firebasestorage.googleapis.com/v0/b/tejimandibeta.appspot.com/o/SCGateway%2FSCGateway.xcframework.zip?alt=media&token=7121ca8f-404f-4be3-b158-abc4f3ccc9e4"}
   #https://gateway.smallcase.com/scdk-ios/1.0.0/SCGateway.framework.zip
   #"https://gitlab.com/dipanjan.jana/dummy/uploads/04b1eb4052706112d6ef533a1edbe330/Archive.zip"
   
